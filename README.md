@@ -5,7 +5,6 @@ Mobile-API for [write.as](https://play.google.com/store/apps/details?id=com.abun
 ```cs
 using System;
 using WriteAsApi;
-using System.Threading.Tasks;
 
 namespace Application
 {
