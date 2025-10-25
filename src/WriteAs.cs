@@ -19,7 +19,7 @@ namespace WriteAsApi
                 new MediaTypeWithQualityHeaderValue("application/x-www-form-urlencoded"));
         }
 
-        public async Task<string> publishText(string word)
+        public async Task<string> PublishText(string word)
         {
             var content = new StringContent(
                 $"w={word}&font=norm&lang=en&rtl=false", Encoding.UTF8);
