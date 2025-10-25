@@ -14,7 +14,7 @@ namespace Application
         static async Task Main()
         {
             var api = new WriteAs();
-            string text = await api.publishText("Hello World!");
+            string text = await api.PublishText("Hello World!");
             Console.WriteLine(text);
         }
     }
