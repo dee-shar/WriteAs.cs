@@ -3,7 +3,6 @@ Mobile-API for [write.as](https://play.google.com/store/apps/details?id=com.abun
 
 ## Example
 ```cs
-using System;
 using WriteAsApi;
 
 namespace Application
