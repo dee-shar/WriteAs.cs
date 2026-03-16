@@ -7,6 +7,7 @@ namespace WriteAsApi
     {
         private readonly HttpClient httpClient;
         private readonly string apiUrl = "https://write.as/api/";
+        
         public WriteAs()
         {
             httpClient = new HttpClient();
